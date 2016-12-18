@@ -1,1 +1,15 @@
-{{ content }}
+{% include header.html %}
+ 
+<nav>
+    <div class="nav-wrapper">
+      <div class="container">
+          <a href="#" class="brand-logo"> {{ site.title }} </a>      
+      </div>
+    </div>
+</nav>
+ 
+<div class="container">
+     {{ content }} 
+</div>
+ 
+{% include footer.html %}
